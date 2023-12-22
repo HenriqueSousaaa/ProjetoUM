@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="CalculosResistencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CalculosCondensadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DigitalLab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CalculosBobines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ResistenciasSerie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TabelaCoresResistencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TeoriasCircuitos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
