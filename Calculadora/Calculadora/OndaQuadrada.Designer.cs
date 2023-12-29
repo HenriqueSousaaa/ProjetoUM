@@ -1,6 +1,6 @@
 ﻿namespace Calculadora
 {
-    partial class TeoriasCircuitos
+    partial class OndaQuadrada
     {
         /// <summary>
         /// Required designer variable.
@@ -28,35 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TeoriasCircuitos));
-            casa2 = new Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OndaQuadrada));
+            casa4 = new Button();
+            voltar1 = new Button();
             SuspendLayout();
             // 
-            // casa2
+            // casa4
             // 
-            casa2.Image = (Image)resources.GetObject("casa2.Image");
-            casa2.Location = new Point(12, 12);
-            casa2.Name = "casa2";
-            casa2.Size = new Size(51, 51);
-            casa2.TabIndex = 0;
-            casa2.UseVisualStyleBackColor = true;
-            casa2.Click += casa2_Click;
+            casa4.Image = (Image)resources.GetObject("casa4.Image");
+            casa4.Location = new Point(12, 12);
+            casa4.Name = "casa4";
+            casa4.Size = new Size(51, 51);
+            casa4.TabIndex = 2;
+            casa4.UseVisualStyleBackColor = true;
+            casa4.Click += casa4_Click;
             // 
-            // TeoriasCircuitos
+            // voltar1
+            // 
+            voltar1.Image = (Image)resources.GetObject("voltar1.Image");
+            voltar1.Location = new Point(69, 12);
+            voltar1.Name = "voltar1";
+            voltar1.Size = new Size(51, 51);
+            voltar1.TabIndex = 12;
+            voltar1.UseVisualStyleBackColor = true;
+            voltar1.Click += voltar1_Click;
+            // 
+            // OndaQuadrada
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(casa2);
-            Name = "TeoriasCircuitos";
+            Controls.Add(voltar1);
+            Controls.Add(casa4);
+            Name = "OndaQuadrada";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Teorias dos Circuitos Elétricos";
-            FormClosing += TeoriasCircuitos_FormClosing;
+            Text = "OndaQuadrada";
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Button casa2;
+        private Button casa4;
+        private Button voltar1;
     }
 }

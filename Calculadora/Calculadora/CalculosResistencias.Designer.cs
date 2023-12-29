@@ -121,6 +121,7 @@
             Controls.Add(ResistenciasParalelo);
             Controls.Add(ResistenciasSerie);
             Name = "CalculosResistencias";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Cálculos Resistências";
             FormClosing += CalculosResistencias_FormClosing;
             ResumeLayout(false);

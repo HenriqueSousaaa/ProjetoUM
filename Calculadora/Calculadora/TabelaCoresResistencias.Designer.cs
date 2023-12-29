@@ -49,6 +49,7 @@
             ClientSize = new Size(800, 450);
             Controls.Add(casa3);
             Name = "TabelaCoresResistencias";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Tabela de Cores das Resistências";
             FormClosing += TabelaCoresResistencias_FormClosing;
             ResumeLayout(false);

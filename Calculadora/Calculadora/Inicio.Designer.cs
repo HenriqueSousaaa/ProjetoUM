@@ -157,6 +157,7 @@
             Controls.Add(CalculoCondensadores);
             Controls.Add(CalculoResistencias);
             Name = "Inicio";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Página Inicial";
             FormClosing += Inicio_FormClosing;
             ResumeLayout(false);

@@ -108,6 +108,7 @@
             Controls.Add(CondensadoresSerie);
             Controls.Add(casa6);
             Name = "CalculosCondensadores";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Cálculos Condensadores";
             FormClosing += CalculosCondensadores_FormClosing;
             ResumeLayout(false);

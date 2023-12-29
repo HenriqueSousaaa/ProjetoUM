@@ -41,7 +41,6 @@
             comboBox3 = new ComboBox();
             ResultadoSerie = new TextBox();
             label1 = new Label();
-            comboBox4 = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)ValorR1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)ValorR2).BeginInit();
@@ -160,22 +159,11 @@
             label1.TabIndex = 14;
             label1.Text = "Resultado:";
             // 
-            // comboBox4
-            // 
-            comboBox4.FormattingEnabled = true;
-            comboBox4.Items.AddRange(new object[] { "TΩ", "GΩ", "MΩ", "KΩ", "Ω", "mΩ", "uΩ", "nΩ", "pΩ" });
-            comboBox4.Location = new Point(325, 349);
-            comboBox4.Name = "comboBox4";
-            comboBox4.Size = new Size(53, 28);
-            comboBox4.TabIndex = 15;
-            comboBox4.SelectedIndexChanged += comboBox4_SelectedIndexChanged;
-            // 
             // ResistenciasSerie
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(comboBox4);
             Controls.Add(label1);
             Controls.Add(ResultadoSerie);
             Controls.Add(comboBox3);
@@ -189,6 +177,7 @@
             Controls.Add(pictureBox1);
             Controls.Add(calcular1);
             Name = "ResistenciasSerie";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Resistências em Série";
             FormClosing += ResistenciasSerie_FormClosing;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -213,6 +202,5 @@
         private ComboBox comboBox3;
         private TextBox ResultadoSerie;
         private Label label1;
-        private ComboBox comboBox4;
     }
 }

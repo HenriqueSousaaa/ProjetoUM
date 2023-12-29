@@ -26,7 +26,36 @@ namespace Calculadora
 
         private void DigitalLab_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Application.Exit(); 
+            Application.Exit();
+        }
+
+        private void OndaSinusoidal_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            OndaSinusoidal PaginaOndaSinusoidal = new OndaSinusoidal();
+            PaginaOndaSinusoidal.Show();
+        }
+
+        private void voltar1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            CalculosResistencias PaginaCalculoResistencias = new CalculosResistencias();
+            PaginaCalculoResistencias.Show();
+        }
+
+        private void OndaQuadrada_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            OndaQuadrada PaginaOndaQuadrada = new OndaQuadrada();
+            PaginaOndaQuadrada.Show();
+
+        }
+
+        private void OndaTriangular_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            OndaTriangular PaginaOndaTriangular = new OndaTriangular();
+            PaginaOndaTriangular.Show();
         }
     }
 }

@@ -46,7 +46,7 @@ namespace Calculadora
 
         private void CalculoBobines_Click(object sender, EventArgs e)
         {
-            
+            this.Hide();
             CalculosBobines PaginaCalculoBobines = new CalculosBobines();
             PaginaCalculoBobines.Show();
         }

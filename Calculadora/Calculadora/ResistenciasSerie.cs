@@ -59,12 +59,12 @@ namespace Calculadora
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
@@ -200,20 +200,19 @@ namespace Calculadora
                 }
             }
 
-            decimal valortotal = conversao1 + conversao2 + conversao3;
+            if ((comboBox3.SelectedItem == null) || (comboBox2.SelectedItem == null) || (comboBox1.SelectedItem == null))
+            {
+                ResultadoSerie.Text = "Unidade não reconhecida.";
+            }
 
-            ResultadoSerie.Text = "O valor total é: " + valortotal.ToString();
+            decimal valortotal = conversao1 + conversao2 + conversao3;
             
+            ResultadoSerie.Text = "O valor total é: " + valortotal.ToString();
         }
 
         private void ResultadoSerie_TextChanged(object sender, EventArgs e)
         {
 
-        }
-
-        private void comboBox4_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            
         }
     }
 }

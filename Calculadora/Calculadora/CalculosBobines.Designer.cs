@@ -108,6 +108,7 @@
             Controls.Add(BobinesSerie);
             Controls.Add(casa5);
             Name = "CalculosBobines";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Cálculos Bobines";
             FormClosing += CalculosBobines_FormClosing;
             ResumeLayout(false);
