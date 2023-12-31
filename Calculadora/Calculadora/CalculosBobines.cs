@@ -1,52 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+#include <stdio.h>
+#include <math.h>
 
-namespace Calculadora
-{
-    public partial class CalculosBobines : Form
-    {
-        public CalculosBobines()
-        {
-            InitializeComponent();
-        }
+#define PI 3.14159
 
-        private void casa5_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Inicio paginainicial = new Inicio();
-            paginainicial.Show();
-        }
+int main() {
+    float raio, altura, volume;
 
-        private void BobinesSerie_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+    printf("Insira o raio da bobina (em metros): ");
+    scanf("%f", &raio);
 
-        private void BobinesParalelo_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+    printf("Insira a altura da bobina (em metros): ");
+    scanf("%f", &altura);
 
-        private void BobinesMistas_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+    volume = PI * pow(raio, 2) * altura;
 
-        private void CalculoBobine_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+    printf("O volume da bobina fundo tecnológico é: %.2f metros cúbicos\n", volume);
 
-        private void CalculosBobines_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
-        }
-    }
+    return 0;
 }
