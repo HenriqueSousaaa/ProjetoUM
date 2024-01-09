@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TeoriasCircuitos));
             casa2 = new Button();
             LeiDeOHM_btn = new Button();
-            cond_btn = new Button();
             SuspendLayout();
             // 
             // casa2
@@ -55,27 +54,15 @@
             LeiDeOHM_btn.UseVisualStyleBackColor = true;
             LeiDeOHM_btn.Click += LeiDeOHM_btn_Click;
             // 
-            // cond_btn
-            // 
-            cond_btn.Location = new Point(433, 144);
-            cond_btn.Name = "cond_btn";
-            cond_btn.Size = new Size(147, 42);
-            cond_btn.TabIndex = 2;
-            cond_btn.Text = "Condutância";
-            cond_btn.UseVisualStyleBackColor = true;
-            cond_btn.Click += button1_Click_1;
-            // 
             // TeoriasCircuitos
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1000, 562);
-            Controls.Add(cond_btn);
             Controls.Add(LeiDeOHM_btn);
             Controls.Add(casa2);
             Margin = new Padding(4);
             Name = "TeoriasCircuitos";
-            StartPosition = FormStartPosition.CenterScreen;
             Text = "Teorias dos Circuitos Elétricos";
             FormClosing += TeoriasCircuitos_FormClosing;
             Load += TeoriasCircuitos_Load;
@@ -86,6 +73,5 @@
 
         private Button casa2;
         private Button LeiDeOHM_btn;
-        private Button cond_btn;
     }
 }

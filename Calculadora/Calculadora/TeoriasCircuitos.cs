@@ -15,7 +15,7 @@ namespace Calculadora
         //bool bOhm = false;
         public TeoriasCircuitos()
         {
-            InitializeComponent();
+            InitializeComponent();  
         }
 
         private void casa2_Click(object sender, EventArgs e)
@@ -69,14 +69,7 @@ namespace Calculadora
 
             V_lbl.Visible = bOhm;
             V_text.Visible = bOhm;
-            Vttgdg
            */
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            Condutancia condutancia = new Condutancia();   
-            condutancia.Show();
         }
     }
 }
