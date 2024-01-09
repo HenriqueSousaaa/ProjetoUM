@@ -130,7 +130,9 @@
             Controls.Add(I_text);
             Controls.Add(R_text);
             Name = "LeiDeOHM_fr";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Lei De Ohm";
+            Load += LeiDeOHM_fr_Load;
             ResumeLayout(false);
             PerformLayout();
         }

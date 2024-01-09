@@ -78,3 +78,33 @@ C:\Users\Henrique Sousa\Source\Repos\HugomgNeto\PROJETO\Calculadora\Calculadora\
 C:\Users\Henrique Sousa\Source\Repos\HugomgNeto\PROJETO\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.pdb
 C:\Users\Henrique Sousa\Source\Repos\HugomgNeto\PROJETO\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.genruntimeconfig.cache
 C:\Users\Henrique Sousa\Source\Repos\HugomgNeto\PROJETO\Calculadora\Calculadora\obj\Debug\net8.0-windows\ref\Calculadora.dll
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\bin\Debug\net8.0-windows\Calculadora.exe
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\bin\Debug\net8.0-windows\Calculadora.deps.json
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\bin\Debug\net8.0-windows\Calculadora.runtimeconfig.json
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\bin\Debug\net8.0-windows\Calculadora.dll
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\bin\Debug\net8.0-windows\Calculadora.pdb
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.CalculosBobines.resources
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.CalculosCondensadores.resources
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.CalculosResistencias.resources
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.DigitalLab.resources
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.Inicio.resources
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.OndaQuadrada.resources
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.OndaSinusoidal.resources
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.OndaTriangular.resources
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.Properties.Resources.resources
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.ResistenciasSerie.resources
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.TabelaCoresResistencias.resources
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.TeoriasCircuitos.resources
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.csproj.GenerateResource.cache
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.AssemblyInfoInputs.cache
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.AssemblyInfo.cs
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.sourcelink.json
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.dll
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\obj\Debug\net8.0-windows\refint\Calculadora.dll
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.pdb
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.genruntimeconfig.cache
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\obj\Debug\net8.0-windows\ref\Calculadora.dll
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.LeiDeOHM_fr.resources
+C:\Users\kakom\Source\Repos\HenriqueSousaaa\ProjetoUM\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.Condutancia.resources

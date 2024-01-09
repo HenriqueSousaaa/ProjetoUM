@@ -7,10 +7,16 @@
     <Compile Update="CalculosCondensadores.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Condutancia.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="DigitalLab.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="CalculosBobines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeiDeOHM.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="OndaQuadrada.cs">
